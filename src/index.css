@@ -1,0 +1,71 @@
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+.App {
+	background: url("https://i.pinimg.com/originals/ee/50/de/ee50dec983d90280a90a40afbe5be29d.jpg");
+	height: 685px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.catButton {
+	width: 20%;
+	padding: 1%;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 18px;
+	background: yellow;
+	color: blue;
+}
+
+.catButton:hover {
+	cursor: pointer;
+	width: 20.5%;
+	padding: 1.2%;
+	font-size: 20px;
+	background: #00F1C2;
+	font-weight: bold;
+	color: red
+}
+
+.fact {
+	text-align: center;
+	margin-top: 7%;
+	font-size: 25px;
+
+}
+
+.dogButton {
+	width: 20%;
+	padding: 1%;
+	position: absolute;
+	top: 39%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 18px;
+	background: yellow;
+	color: blue;
+}
+
+.dogButton:hover {
+	cursor: pointer;
+	width: 20.5%;
+	padding: 1.2%;
+	font-size: 20px;
+	background: #00F1C2;
+	font-weight: bold;
+	color: red
+}
+
+.dogImage {
+	float: left;
+	margin-top: 13%;
+	margin-left: 1%;
+}
